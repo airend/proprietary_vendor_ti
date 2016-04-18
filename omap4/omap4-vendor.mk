@@ -11,4 +11,4 @@ PRODUCT_PACKAGES += \
 	libusc \
 	libGLESv1_CM_POWERVR \
 	libGLESv2_POWERVR \
-	gralloc.omap$(TARGET_BOARD_OMAP_CPU)
+	gralloc.$(TARGET_BOARD_PLATFORM)
